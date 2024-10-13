@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Login Form</title>
+</head>
+<body>
+    <form action="login" method="get">
+        <label for="username">Name:</label>
+        <input type="text" name="username" placeholder="Enter Your First Name" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female<br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter Your Email" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" required><br><br>
+
+        <label for="course">Course:</label>
+        <select name="course">
+            <option value="B.Tech">B.Tech</option>
+        </select>
+
+        <label for="branch">Branch:</label>
+        <select name="branch">
+            <option value="CSE">CSE</option>
+        </select><br><br>
+
+        <label>Technical Skills:</label><br>
+        <input type="checkbox" name="tech" value="C">C<br>
+        <input type="checkbox" name="tech" value="C++">C++<br>
+        <input type="checkbox" name="tech" value="Java">JAVA<br>
+        <input type="checkbox" name="tech" value="Oracle">ORACLE<br>
+        <input type="checkbox" name="tech" value="Others">OTHERS<br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
